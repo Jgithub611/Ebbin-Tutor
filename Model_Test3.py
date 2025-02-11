@@ -228,5 +228,4 @@ def main():
             print(f"Bot ({confidence:.2%} confianza): {response}")
         else:
             print(f"\nResultado:\n{response}")
-if __name__ == "__main__":
-    main()
+main()
