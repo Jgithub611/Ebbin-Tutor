@@ -31,82 +31,134 @@ st.set_page_config(
 #CSS
 st.markdown("""
 <style>
-    .main {
-        background-color: #1E1E1E;  /* Dark gray background */
-        color: #E0E0E0;  /* Light text */
+    
+    body {
+        background-color: rgba(20, 20, 20, 0.95); 
+        color: #E0E0E0;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
     }
+
+    /* Contenedor principal */
     .stApp {
         max-width: 1200px;
-        margin: 0 auto;
-        background-color: #2A2A2A;  /* Slightly lighter dark gray for app container */
+        margin: auto;
+        background: rgba(255, 255, 255, 0.1); 
+        backdrop-filter: blur(15px); 
+        border-radius: 20px; 
+        padding: 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
     }
+
+    /* Estilo de mensajes de chat */
     .chat-message {
-        padding: 1.5rem; 
-        border-radius: 0.8rem; 
-        margin-bottom: 1rem; 
+        padding: 1rem;
+        border-radius: 15px;
+        margin-bottom: 1rem;
         display: flex;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.3);  /* Darker shadow */
+        align-items: center;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        background: rgba(255, 255, 255, 0.15); 
+        backdrop-filter: blur(10px); 
+        transition: transform 0.2s; 
     }
+
+    .chat-message:hover {
+        transform: scale(1.02); 
+
     .chat-message.user {
-        background-color: #3A4A5A;  /* Dark blue-gray for user */
-        border-left: 5px solid #4682B4;  /* Steel blue border */
+        background-color: rgba(58, 74, 90, 0.85); 
+        border-left: 5px solid #4682B4; 
     }
+
     .chat-message.bot {
-        background-color: #2F3E46;  /* Dark teal for bot */
-        border-left: 5px solid #2E8B57;  /* Sea green border */
+        background-color: rgba(47, 62, 70, 0.85); 
+        border-left: 5px solid #2E8B57; 
     }
+
     .chat-message .avatar {
         width: 50px;
         height: 50px;
         border-radius: 50%;
         object-fit: cover;
         margin-right: 1rem;
+        border: 2px solid rgba(255, 255, 255, 0.3); 
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
     }
+
     .chat-message .message {
         flex-grow: 1;
-        color: #D3D3D3;  /* Light gray text */
+        color: #D3D3D3; 
+        font-size: 1rem;
     }
+
     .timestamp {
-        font-size: 0.8rem;
-        color: #A9A9A9;  /* Medium gray for timestamp */
-        margin-bottom: 0.5rem;
+        font-size: 0.75rem;
+        color: #A9A9A9; 
+        margin-top: 0.5rem;
+        text-align: right; 
     }
+
+    /* Estilo de botones */
     .stButton > button {
-        background-color: #2E8B57;  /* Sea green for buttons */
-        color: #FFFFFF;  /* White text */
+        background-color: rgba(46, 139, 87, 0.9); 
+        color: #FFFFFF; 
         border: none;
-        border-radius: 4px;
-        padding: 0.5rem 1rem;
+        border-radius: 25px; 
+        padding: 12px 25px;
+        font-size: 1rem; 
+        transition: background-color 0.3s ease, transform 0.2s; 
+        cursor: pointer; 
     }
+
     .stButton > button:hover {
-        background-color: #257A47;  /* Darker green on hover */
+        background-color: rgba(39, 122, 71, 0.9);
+        transform: translateY(-2px); 
     }
-    .topic-chip {
-        display: inline-block;
-        background-color: #354F52;  /* Dark teal for chips */
-        border-radius: 16px;
-        padding: 5px 12px;
-        margin: 5px;
-        font-size: 0.85rem;
-        color: #B0C4DE;  /* Light steel blue text */
-        border: 1px solid #52796F;  /* Darker teal border */
-    }
+
+    /* Estilo de entradas de texto */
     .stTextInput > div > div > input {
         border-radius: 20px;
-        padding: 10px 15px;
-        border: 1px solid #555555;  /* Dark gray border */
-        background-color: #333333;  /* Dark input background */
-        color: #E0E0E0;  /* Light text */
+        padding: 12px 15px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        background-color: rgba(51, 51, 51, 0.8); 
+        color: #E0E0E0; 
+        transition: border-color 0.3s;
     }
-    /* Footer styling */
+
+    .stTextInput > div > div > input:focus {
+        border-color: #4682B4; 
+        outline: none; 
+    }
+
+    /* Estilo de chips de tema */
+    .topic-chip {
+        display: inline-block;
+        background-color: rgba(53, 79, 82, 0.8); 
+        border-radius: 20px;
+        padding: 8px 15px;
+        margin: 5px;
+        font-size: 0.9rem;
+        color: #B0C4DE; 
+        border: 1px solid rgba(82, 121, 111, 0.8); 
+        transition: background-color 0.3s;
+    }
+
+    .topic-chip:hover {
+        background-color: rgba(82, 121, 111, 0.9); 
+    }
+
+    /* Estilo del pie de página */
     .footer {
         text-align: center;
         padding: 1rem;
-        color: #A9A9A9;  /* Medium gray for footer text */
+        color: #A9A9A9; 
         position: fixed;
         bottom: 0;
         width: 100%;
-        background-color: #1E1E1E;  /* Match main background */
+        background-color: rgba(30, 30, 30, 0.9);
+        box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5); 
     }
 </style>
 """, unsafe_allow_html=True)
@@ -343,7 +395,7 @@ def main():
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    st.title("📚 EbbinTutor - Asistente Educativo IA")
+    st.title("📚 EbbinTutor")
 
     st.sidebar.title("⚙️ Configuración")
     
