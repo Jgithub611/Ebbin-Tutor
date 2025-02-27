@@ -1,0 +1,196 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola",
+                "buenos días",
+                "buenas tardes",
+                "buenas noches",
+                "hey",
+                "qué tal",
+                "saludos",
+                "cómo estás",
+                "hola que tal",
+                "hola EbbinTutor",
+                "buen día",
+                "qué onda",
+                "cómo va todo",
+                "hola, necesito ayuda",
+                "hola, EbbinTutor, ¿me puedes ayudar?",
+                "hola, ¿qué tal tu día?",
+                "saludos, EbbinTutor",
+                "hola, estoy listo para estudiar",
+                "hola, ¿cómo te llamas?"
+            ],
+            "responses": [
+                "¡Hola! Soy EbbinTutor, tu tutor virtual. ¿En qué puedo ayudarte hoy?",
+                "¡Bienvenido! Soy EbbinTutor, estoy aquí para ayudarte con tus estudios. ¿Qué te gustaría aprender?",
+                "¡Hola! Me alegro de verte. Soy EbbinTutor. ¿Sobre qué tema quieres conversar?",
+                "¡Saludos! Soy EbbinTutor, tu asistente de aprendizaje personal. ¿Qué te gustaría estudiar hoy?",
+                "¡Hola! ¿Listo para aprender algo nuevo hoy? Soy EbbinTutor, por cierto.",
+                "¡Buenas! ¿Cómo puedo hacer tu día de estudio más productivo? Soy EbbinTutor, tu tutor virtual."
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "adiós",
+                "hasta luego",
+                "chao",
+                "nos vemos",
+                "hasta pronto",
+                "me voy",
+                "hasta mañana",
+                "adiós EbbinTutor",
+                "fue un placer",
+                "tengo que irme",
+                "hasta la próxima",
+                "cuídate",
+                "me despido",
+                "fue un gusto hablar contigo",
+                "gracias por todo, adiós"
+            ],
+            "responses": [
+                "¡Hasta luego! Espero haberte ayudado con tus dudas. Vuelve pronto.",
+                "¡Adiós! Recuerda que estoy aquí para ayudarte cuando lo necesites. ¡Que tengas un gran día!",
+                "¡Nos vemos pronto! Sigue aprendiendo y creciendo. ¡No dudes en contactarme si necesitas algo más!",
+                "¡Hasta la próxima! Ha sido un placer ayudarte. ¡Espero verte pronto!",
+                "¡Que tengas un excelente día! ¡No dudes en regresar si tienes más preguntas!",
+                "¡Adiós! ¡Sigue estudiando y alcanzando tus metas! Recuerda, soy EbbinTutor, tu tutor virtual."
+            ]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": [
+                "gracias",
+                "muchas gracias",
+                "te lo agradezco",
+                "gracias por la ayuda",
+                "eres de gran ayuda",
+                "aprecio tu ayuda",
+                "gracias EbbinTutor",
+                "muy amable",
+                "me has ayudado mucho",
+                "gracias por tu tiempo",
+                "gracias por explicarme",
+                "gracias por los consejos",
+                "gracias por tu paciencia"
+            ],
+            "responses": [
+                "¡De nada! Me alegra poder ayudarte en tu aprendizaje. ¡Para eso estoy aquí!",
+                "Es un placer ayudarte a alcanzar tus metas educativas. ¡No dudes en preguntar si necesitas algo más!",
+                "No hay de qué. Tu éxito académico es mi prioridad. ¡Siempre estoy aquí para apoyarte!",
+                "Me alegra ser de ayuda. ¿Hay algo más en lo que pueda ayudarte? ¡Pregunta sin dudar!",
+                "¡De nada! ¡Recuerda que soy EbbinTutor, tu tutor virtual, y estoy aquí para hacer tu estudio más fácil y efectivo!",
+                "¡No hay problema! ¡Siempre es un gusto poder ayudarte! ¡Sigue adelante con tus estudios!"
+            ]
+        },
+        {
+            "tag": "ayuda_general",
+            "patterns": [
+                "necesito ayuda",
+                "puedes ayudarme",
+                "no entiendo",
+                "tengo dudas",
+                "estoy confundido",
+                "podrías explicarme",
+                "cómo funciona esto",
+                "ayúdame con esto",
+                "no sé qué hacer",
+                "explícame por favor",
+                "dame una mano",
+                "cómo puedo resolver esto",
+                "necesito tu ayuda EbbinTutor",
+                "tengo una pregunta",
+                "¿me puedes dar una explicación?",
+                "¿cómo se hace esto?",
+                "¿qué significa esto?",
+                "no entiendo este concepto"
+            ],
+            "responses": [
+                "Por supuesto, estoy aquí para ayudarte. ¿Sobre qué tema específico tienes dudas? ¡No te preocupes, juntos lo resolveremos!",
+                "Claro que sí. Cuéntame más sobre lo que no entiendes y te ayudaré a comprenderlo. ¡Estoy aquí para hacerte las cosas más claras!",
+                "Con gusto te ayudo. ¿Podrías ser más específico sobre lo que necesitas? ¡Cuanta más información me des, mejor podré ayudarte!",
+                "Estoy para apoyarte. Explícame tu duda y trabajaremos juntos para resolverla. ¡No hay pregunta tonta! Soy EbbinTutor, tu tutor virtual.",
+                "¡Claro! Dime en qué necesitas ayuda y haré todo lo posible para guiarte.",
+                "¡Por supuesto! ¿Qué necesitas saber? ¡Estoy aquí para hacerte la vida de estudiante más fácil!"
+            ]
+        },
+        {
+            "tag": "motivacion",
+            "patterns": [
+                "estoy cansado de estudiar",
+                "esto es muy difícil",
+                "no puedo más",
+                "quiero rendirme",
+                "no sirvo para esto",
+                "es demasiado complicado",
+                "estoy desmotivado",
+                "no tengo ganas de estudiar",
+                "me siento frustrado",
+                "no veo resultados",
+                "estoy agotado",
+                "no entiendo nada",
+                "esto me supera",
+                "no tengo motivación",
+                "siento que no avanzo",
+                "estoy perdiendo la esperanza",
+                "no sé si podré lograrlo"
+            ],
+            "responses": [
+                "¡No te rindas! Cada pequeño paso cuenta. ¿Qué tal si dividimos esto en partes más manejables? ¡Juntos podemos lograrlo!",
+                "Entiendo que te sientas así. Recuerda que el aprendizaje es un proceso. ¿Qué parte te resulta más difícil? ¡Podemos enfocarnos en eso!",
+                "Todos nos hemos sentido así alguna vez. Tomemos un respiro y abordemos esto desde otro ángulo. ¡Un descanso puede hacer maravillas!",
+                "Creer en ti mismo es el primer paso. Estoy aquí para ayudarte a superar estos obstáculos. ¡Tú puedes lograrlo! Soy EbbinTutor, tu tutor virtual.",
+                "¡No te desanimes! Los desafíos son oportunidades para crecer. ¡Vamos a encontrar una solución juntos!",
+                "¡Recuerda por qué empezaste! ¡Tus metas valen la pena! ¡Sigamos adelante! ¡Yo creo en ti!"
+            ]
+        },
+        {
+            "tag": "consejos_estudio",
+            "patterns": [
+                "cómo puedo estudiar mejor",
+                "técnicas de estudio",
+                "consejos para aprender",
+                "cómo mejorar mi aprendizaje",
+                "métodos de estudio",
+                "tips para estudiar",
+                "cómo estudiar de forma eficiente",
+                "qué técnicas de estudio me recomiendas",
+                "cómo puedo concentrarme mejor",
+                "cómo memorizar mejor",
+                "cómo tomar apuntes efectivos",
+                "cómo preparar exámenes",
+                "cómo hacer resúmenes",
+                "cómo estudiar para un examen difícil",
+                "cómo aprender más rápido",
+                "cómo recordar lo que estudio",
+                "cómo evitar distracciones al estudiar"
+            ],
+            "responses": [
+                "Te recomiendo: 1) Establece un horario fijo, 2) Toma descansos regulares, 3) Usa técnicas como el método Pomodoro, 4) Crea resúmenes y mapas mentales. ¡Verás cómo mejora tu rendimiento!",
+                "Algunos consejos útiles: estudia en un lugar tranquilo, divide el material en partes pequeñas, practica activamente y revisa regularmente lo aprendido. ¡La constancia es clave!",
+                "Para mejorar tu estudio: establece metas claras, elimina distracciones, alterna entre diferentes temas y explica lo que aprendes a otros. ¡Enseñar es una excelente forma de aprender!"]},
+                
+        {
+            "tag": "nombre",
+            "patterns": [
+            "¿cómo te llamas?",
+            "¿cuál es tu nombre?",
+            "¿quién eres?",
+            "¿cómo debo llamarte?",
+            "¿tienes nombre?",
+            "¿me puedes decir tu nombre?",
+            "¿cuál es tu nombre completo?",
+            "¿cómo te llamas tú?",
+            "¿puedes decirme tu nombre?"
+        ],
+        "responses": [
+            "Me llamo EbbinTutor, ¡tu tutor virtual!",
+            "Soy EbbinTutor, aquí para ayudarte con tus estudios.",
+            "Puedes llamarme EbbinTutor, estaré encantado de asistirte.",
+            "Mi nombre es EbbinTutor, ¿en qué puedo ayudarte hoy?",
+            "Soy EbbinTutor, tu asistente de aprendizaje personalizado.",
+            "EbbinTutor es mi nombre, y ayudarte a aprender es mi misión."
+        ]}]}
