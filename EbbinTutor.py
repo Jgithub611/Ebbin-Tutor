@@ -454,7 +454,7 @@ def main():
     logo_base64 = get_base64_image("Logo.png")
     logo_html = f"""
     <div style="text-align: center; margin-bottom: 20px;">
-        <img src="{logo_base64}" style="width: 320px; height: auto;">
+        <img src="{logo_base64}" style="width: 220px; height: auto;">
     </div>
     """
     st.markdown(logo_html, unsafe_allow_html=True)
