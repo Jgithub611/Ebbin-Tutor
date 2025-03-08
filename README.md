@@ -89,7 +89,11 @@ EBBINTUTOR tiene aplicaciones en:
 
 ##  Estado de visualización actual del proyecto 
 
-![Estado del proyecto](https://github.com/user-attachments/assets/6ccc1510-2315-4a48-b84a-d8f7e6ebc883)
+
+
+https://github.com/user-attachments/assets/0773cb32-609f-46ee-a2aa-aecefc0f92c1
+
+
 
 ---
 
