@@ -73,8 +73,7 @@ Implementación en Streamlit para accesibilidad web
 Generación dinámica de contenido educativo basado en respuestas del usuario.
 
 4️⃣ Base de Datos y Almacenamiento
-Estructuración de datos de entrenamiento con NumPy y Pandas
-Modelado de la curva de olvido basado en datos históricos
+Estructuración de datos de entrenamiento con NumPy y Pandas.
 
 ---
 
