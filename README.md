@@ -60,8 +60,7 @@ el proceso de enseñanza-aprendizaje.
 EBBINTUTOR está compuesto por varios módulos interconectados:
 
 1️⃣ Procesamiento de Lenguaje Natural (NLP)
-Tokenización, lematización y análisis sintáctico con NLTK
-Modelado semántico mediante embeddings y transformers.
+Tokenización, lematización y análisis sintáctico con NLTK.
 
 2️⃣ Motor de Machine Learning
 Modelos de aprendizaje supervisado y no supervisado con TensorFlow/Keras
