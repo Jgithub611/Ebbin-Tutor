@@ -53,8 +53,6 @@ el proceso de enseñanza-aprendizaje.
 
 ✅Optimizar el acceso a la educación personalizada, especialmente en comunidades con recursos limitados.
 
-✅Evaluar el impacto del aprendizaje automático en la educación mediante métricas de retención y desempeño.
-
 ---
 
 🏗 Arquitectura del Sistema
