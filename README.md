@@ -115,7 +115,11 @@ tecnológico.
 
 🚀 Estado de visualizacion actual del proyecto 🚀
 
-![2025-03-07-21-45-44-_online-video-cutter com_](https://github.com/user-attachments/assets/5a0c4fb1-f201-4813-914c-ab6f1e61a596)
+
+
+https://github.com/user-attachments/assets/6ccc1510-2315-4a48-b84a-d8f7e6ebc883
+
+
 
 ---
 
