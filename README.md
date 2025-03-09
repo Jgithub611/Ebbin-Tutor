@@ -55,7 +55,7 @@ EBBINTUTOR está compuesto por varios módulos interconectados:
     * Generación dinámica de contenido educativo basado en respuestas del usuario.
 4.  **Base de Datos y Almacenamiento**
     * Estructuración de datos de entrenamiento con NumPy y Pandas.
-
+![Texto alternativo](arquitectura.png)
 ---
 
 ## ️ Tecnologías Utilizadas
