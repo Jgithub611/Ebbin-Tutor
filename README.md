@@ -8,13 +8,14 @@
 
 1.  [Nombre del Proyecto](#nombre-del-proyecto)
 2.  [Descripción del Proyecto](#descripción-del-proyecto)
-3.  [Objetivos del Proyecto](#objetivos-del-proyecto)
-4.  [Arquitectura del Sistema](#arquitectura-del-sistema)
-5.  [Tecnologías Utilizadas](#tecnologías-utilizadas)
-6.  [Evaluación y Validación](#evaluación-y-validación)
-7.  [Impacto y Aplicaciones](#impacto-y-aplicaciones)
-8.  [Conclusión](#conclusión)
-9.  [Agradecimientos](#agradecimientos)
+3.  [Nueva Implementacion en el Hackathon](#nueva-implementacion-en-el-hackathon)
+4.  [Objetivos del Proyecto](#objetivos-del-proyecto)
+5.  [Arquitectura del Sistema](#arquitectura-del-sistema)
+6.  [Tecnologías Utilizadas](#tecnologías-utilizadas)
+7.  [Evaluación y Validación](#evaluación-y-validación)
+8.  [Impacto y Aplicaciones](#impacto-y-aplicaciones)
+9.  [Conclusión](#conclusión)
+10.  [Agradecimientos](#agradecimientos)
 
 ---
 
@@ -31,6 +32,15 @@ EBBINTUTOR es un modelo de tutoría inteligente basado en intenciones e intelige
 Inspirado en las investigaciones de Hermann Ebbinghaus sobre la memoria y el aprendizaje, EBBINTUTOR emplea un enfoque adaptativo para mejorar el proceso de enseñanza-aprendizaje.
 
 ---
+
+## 🏆 Nueva Implementacion en el Hackathon
+
+Durante nuestra participación en el hackathon, integramos una nueva característica clave para mejorar la accesibilidad e interacción del tutor virtual:
+
+✅ Narración y texto a voz (TTS): Integramos la API de ElevenLabs para proporcionar una experiencia de aprendizaje más inmersiva, permitiendo que los usuarios escuchen las explicaciones en lugar de solo leerlas.
+
+---
+
 
 ##  Objetivos del Proyecto
 
@@ -64,6 +74,7 @@ EBBINTUTOR está compuesto por varios módulos interconectados:
 * ⭐ **Frameworks:** TensorFlow, Keras, Streamlit
 * ⭐ **Procesamiento de Datos:** NumPy, Pandas
 * ⭐ **Procesamiento de Lenguaje Natural (NLP):** NLTK
+* ⭐ **Texto a voz (TTS):** API ElevenLabs
 * ⭐ **Control de Versiones:** GitHub
 
 ---
@@ -78,12 +89,15 @@ El rendimiento del sistema se mide a través de:
 
 ---
 
-##  Impacto y Aplicaciones
+EBBINTUTOR tiene aplicaciones en:
+
+## ✅ 🌍 Impacto y Aplicaciones
 
 EBBINTUTOR tiene aplicaciones en:
 
 * ✅ Educación personalizada en entornos académicos y autodidactas.
 * ✅ Optimización del aprendizaje mediante IA en entornos de bajo acceso tecnológico.
+* ✅ Inclusión de tecnologías accesibles para personas con discapacidades visuales o motoras.
 
 ---
 
@@ -99,12 +113,11 @@ https://github.com/user-attachments/assets/0773cb32-609f-46ee-a2aa-aecefc0f92c1
 
 ##  Conclusión
 
-EBBINTUTOR representa un avance significativo en la educación personalizada impulsada por inteligencia artificial. A través de técnicas de Machine Learning, Procesamiento de Lenguaje Natural y modelos de redes neuronales, hemos desarrollado una plataforma que no solo proporciona respuestas automatizadas, sino que aprende y se adapta a las necesidades individuales de cada estudiante.
+EBBINTUTOR representa un avance significativo en la educación personalizada impulsada por inteligencia artificial. Gracias a la implementación de Machine Learning, Procesamiento de Lenguaje Natural y modelos de redes neuronales, hemos creado una plataforma que no solo responde preguntas, sino que aprende y se adapta a las necesidades individuales de cada estudiante.
 
-Al final, nuestro objetivo fue mucho más que crear un sistema automatizado. Buscamos proporcionar un recurso que brinde respuestas útiles y precisas, facilitando el acceso a la información para los usuarios que la usen. Este proyecto no solo ha sido un ejercicio técnico, sino una experiencia enriquecedora que nos ha permitido aprender y mejorar.
+Con la integración de reconocimiento de voz y narración (TTS) durante el hackathon, hemos mejorado la accesibilidad y la interacción, permitiendo que más personas puedan beneficiarse de un aprendizaje adaptativo e inclusivo.
 
-En última instancia, nuestro objetivo con EBBINTUTOR es transformar la educación a través de la IA, ofreciendo una herramienta innovadora que potencie el aprendizaje y brinde oportunidades a quienes más lo necesitan. Este es solo el comienzo de un camino hacia el futuro de la educación digital. 
-
+En última instancia, nuestro objetivo con EBBINTUTOR es transformar la educación a través de la IA, ofreciendo una herramienta innovadora que potencie el aprendizaje y brinde oportunidades a quienes más lo necesitan.
 ---
 
 ## ⭐ Agradecimientos ⭐
