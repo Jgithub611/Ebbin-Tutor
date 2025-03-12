@@ -89,9 +89,8 @@ El rendimiento del sistema se mide a través de:
 
 ---
 
-EBBINTUTOR tiene aplicaciones en:
 
-## ✅ 🌍 Impacto y Aplicaciones
+## 🌍 Impacto y Aplicaciones
 
 EBBINTUTOR tiene aplicaciones en:
 
@@ -118,6 +117,7 @@ EBBINTUTOR representa un avance significativo en la educación personalizada imp
 Con la integración de reconocimiento de voz y narración (TTS) durante el hackathon, hemos mejorado la accesibilidad y la interacción, permitiendo que más personas puedan beneficiarse de un aprendizaje adaptativo e inclusivo.
 
 En última instancia, nuestro objetivo con EBBINTUTOR es transformar la educación a través de la IA, ofreciendo una herramienta innovadora que potencie el aprendizaje y brinde oportunidades a quienes más lo necesitan.
+
 ---
 
 ## ⭐ Agradecimientos ⭐
